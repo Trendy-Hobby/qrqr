@@ -7,21 +7,38 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
-            // 이런 google에 찾아보니까 이런 형식이 있더라고!
-            var data = [20, 18, 15, 10, 9];
-            var found = data.find(function(element) {
-                return element < 1;
-            });
-            console.log(found);
-                
-            // 그래서 이렇게 적용해봤어!
-            var ingredient = ["닭고기", "소고기", "시금치"]
-            var filter = ingredient.find(function(element) {
-                if (element === "소고기") {
-                alert('먹으면 안돼!');
-                    }
-                })
-    </script>                
+    <table border="1">
+        <caption>오뚜기 카레 정보</caption>
+        <th></th>
+        <th>섭취 가능여부</th>
+        <tr>
+            <td>비건 (Vegan) </td>
+            <td style="color:red">X</td>
+        </tr>
+        <tr>
+            <td>락토 (Lacto) </td>
+            <td style="color:red">X</td>
+        </tr>
+        <tr>
+            <td>오보 (Ovo) </td>
+            <td style="color:red">X</td>
+        </tr>
+        <tr>
+            <td>락토 오보 (Lacto-ovo)  </td>
+            <td style="color:red">X</td>
+        </tr>
+        <tr>
+            <td>페스코 (Pesco)  </td>
+            <td style="color:green">0</td>
+        </tr>
+        <tr>
+            <td>폴로 (Pollo)  </td>
+            <td style="color:green">0</td>
+        </tr>
+        <tr>
+            <td>플렉시테리언 (Flexitarian)   </td>
+            <td style="color:green">0</td>
+        </tr>
+    </table>
 </body>
 </html>
