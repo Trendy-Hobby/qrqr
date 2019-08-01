@@ -7,8 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    <img src="pig.jpg" alt="">
-    <br>
-    안돼요!
+    <script>
+            // 이런 google에 찾아보니까 이런 형식이 있더라고!
+            var data = [20, 18, 15, 10, 9];
+            var found = data.find(function(element) {
+                return element < 1;
+            });
+            console.log(found);
+                
+            // 그래서 이렇게 적용해봤어!
+            var ingredient = ["닭고기", "소고기", "시금치"]
+            var filter = ingredient.find(function(element) {
+                if (element === "소고기") {
+                alert('먹으면 안돼!');
+                    }
+                })
+    </script>                
 </body>
 </html>
