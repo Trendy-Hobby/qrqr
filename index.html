@@ -5,39 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            border-top: 1px solid #444444;
+            border-bottom: 1px solid #444444;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 5px;
+        }
+        thead tr {
+            background-color: #cbe3bb;
+        }
+        tbody tr:nth-child(2n) {
+            background-color: #e2efd9;
+        }
+
+
+    </style>
 </head>
 <body>
-    <table border="1">
-        <caption>오뚜기 카레 정보</caption>
-        <th></th>
-        <th>섭취 가능여부</th>
+    <table>
+        <thead>
+            <tr><th>채식 종류</th><th>섭취 가능여부</th></tr>
+        </thead>
         <tr>
-            <td>비건 (Vegan) </td>
-            <td style="color:red">X</td>
+            <td>비건  <font size="2">Vegan</font> </td>
+            <td align="center" valine ="center" style="color:#c71a1a">X</td>
         </tr>
         <tr>
-            <td>락토 (Lacto) </td>
-            <td style="color:red">X</td>
+            <td>락토  <font size="2">Lacto</font></td>
+            <td align="center" valine ="center" style="color:#c71a1a">X</td>
         </tr>
         <tr>
-            <td>오보 (Ovo) </td>
-            <td style="color:red">X</td>
+            <td>오보  <font size="2">Ovo</font></td>
+            <td align="center" valine ="center" style="color:#c71a1a">X</td>
         </tr>
         <tr>
-            <td>락토 오보 (Lacto-ovo)  </td>
-            <td style="color:red">X</td>
+            <td>락토 오보  <font size="2">Lacto-ovo</font></td>
+            <td align="center" valine ="center" style="color:#c71a1a">X</td>
         </tr>
         <tr>
-            <td>페스코 (Pesco)  </td>
-            <td style="color:green">0</td>
+            <td>페스코  <font size="2">Pesco</font></td>
+            <td align="center" valine ="center" style="color:#211c61">O</td>
         </tr>
         <tr>
-            <td>폴로 (Pollo)  </td>
-            <td style="color:green">0</td>
+            <td>폴로  <font size="2">Pollo</font></td>
+            <td align="center" valine ="center" style="color:#211c61">O</td>
         </tr>
         <tr>
-            <td>플렉시테리언 (Flexitarian)   </td>
-            <td style="color:green">0</td>
+            <td>플렉시테리언  <font size="2">Flexitarian</font></td>
+            <td align="center" valine ="center" style="color:#211c61">O</td>
         </tr>
     </table>
 </body>
