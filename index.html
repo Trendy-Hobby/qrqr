@@ -24,42 +24,47 @@
         tbody tr:nth-child(2n) {
             background-color: #e2efd9;
         }
-
-
     </style>
 </head>
 <body>
     <table>
         <thead>
-            <tr><th>채식 종류</th><th>섭취 가능여부</th></tr>
+            <tr><th>채식 종류</th><th>섭취 가능여부</th><th></th></tr>
         </thead>
         <tr>
             <td>비건  <font size="2">Vegan</font> </td>
             <td align="center" valine ="center" style="color:#c71a1a">X</td>
+            <td><a href="void(0);" onclick="alert('계란, 유제품, 가금류가 함유되었습니다'); return false;">?</a></td>
         </tr>
         <tr>
             <td>락토  <font size="2">Lacto</font></td>
-            <td align="center" valine ="center" style="color:#c71a1a">X</td>
+            <td align="center" valine="center" style="color:#c71a1a">X</td>
+            <td><a href="void(0);" onclick="alert('계란, 가금류가 함유되었습니다'); return false;">?</a></td>
         </tr>
         <tr>
             <td>오보  <font size="2">Ovo</font></td>
-            <td align="center" valine ="center" style="color:#c71a1a">X</td>
+            <td align="center" valine="center" style="color:#c71a1a">X</td>
+            <td><a href="void(0);" onclick="alert('가금류가 함유되었습니다'); return false;">?</a></td>
         </tr>
         <tr>
             <td>락토 오보  <font size="2">Lacto-ovo</font></td>
-            <td align="center" valine ="center" style="color:#c71a1a">X</td>
+            <td align="center" valine="center" style="color:#c71a1a">X</td>
+            <td><a href="void(0);" onclick="alert('가금류가 함유되었습니다'); return false;">?</a></td>
         </tr>
         <tr>
             <td>페스코  <font size="2">Pesco</font></td>
-            <td align="center" valine ="center" style="color:#211c61">O</td>
+            <td align="center" valine="center" style="color:#211c61">O</td>
+            <td></td>
         </tr>
         <tr>
             <td>폴로  <font size="2">Pollo</font></td>
-            <td align="center" valine ="center" style="color:#211c61">O</td>
+            <td align="center" valine="center" style="color:#211c61">O</td>
+            <td></td>
         </tr>
         <tr>
             <td>플렉시테리언  <font size="2">Flexitarian</font></td>
-            <td align="center" valine ="center" style="color:#211c61">O</td>
+            <td align="center" valine="center" style="color:#211c61">O</td>
+            <td></td>
         </tr>
     </table>
 </body>
